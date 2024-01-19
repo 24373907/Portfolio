@@ -1,0 +1,63 @@
+:root {
+    --main-background-color: #283B42;
+    --secondary-background-color: #1D6A96;
+    --main-text-color: linen;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+}
+
+main {
+    position: relative;
+    top: 30px;
+}
+
+nav {
+    width: 100%;
+    background-color: var(--secondary-background-color);
+    height: 30px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    height: 20px;
+   
+    width: 33%;
+    text-align: center;
+    color: var(--main-text-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: var(--main-background-color);
+}
+
+.about-me {
+    background-color: var(--secondary-background-color);
+    width: 100%;
+}
+
+#main-img {
+    width: 150px;
+    height: 100px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+}
+
+#background-img {
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+    position: absolute;
+}
